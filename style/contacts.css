@@ -1,0 +1,294 @@
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#contact-div {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  padding: 25px 0px 25px 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#contact-div div {
+  border: 2px solid rgb(77, 77, 77);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#contact-div h2 {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px;
+  width: 42%;
+  margin: auto;
+  text-align: center;
+}
+
+#contact-div h2 span {
+  color: rgb(70, 194, 239);
+  font-weight: 600;
+  font-size: medium;
+}
+#contact-div div a {
+  color: rgb(255, 255, 255);
+  margin: 5px;
+  padding: 10px;
+  font-size: large;
+  font-weight: 600;
+  transition: all 0.4s;
+}
+#contact-div div a:hover {
+  color: rgb(70, 194, 239);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*------------------------------------------- For smartphones ------------------------------------*/
+
+@media screen and (min-width: 100px) and (max-width: 480px) {
+  /* CSS styles for smartphones */
+  #contact {
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 150px;
+  }
+
+  #contact-div {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 1px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(77, 77, 77);
+    margin: auto;
+    text-align: center;
+    font-size: small;
+    padding: 10px 20px;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: 0.7rem;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    transition: all 0.4s;
+  }
+}
+
+/*----------------------------------------- For small tablets --------------------------------*/
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  /* CSS styles for small tablets */
+  #contact {
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 150px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    transition: all 0.4s;
+  }
+}
+
+/*-------------------------- For larger tablets and smaller laptops---------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS styles for larger tablets and smaller laptops */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
+
+/*-------------------------------- For desktop screens -----------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  /* CSS styles for desktop screens */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
+
+/* -------------------------------For large screens -----------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+  /* CSS styles for large screens */
+  #contact {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  #contact-div {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 25px 0px 25px 0px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  #contact-div div {
+    border: 2px solid rgb(77, 77, 77);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  #contact-div h2 {
+    border: 1px solid rgb(82, 82, 82);
+    padding: 10px;
+    width: 42%;
+    margin: auto;
+    text-align: center;
+  }
+
+  #contact-div h2 span {
+    color: rgb(70, 194, 239);
+    font-weight: 600;
+    font-size: medium;
+  }
+  #contact-div div a {
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-weight: 600;
+    transition: all 0.4s;
+  }
+}
