@@ -25,6 +25,8 @@
 }
 
 #skills-div div {
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: 2px solid grey;
   display: flex;
   flex-direction: column;
