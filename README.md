@@ -1,4 +1,4 @@
-# [ShaswatSRaghuvansi.github.io](https://ShaswatSRaghuvansi.github.io/)
+# [shaswatsraghuvansi.github.io](https://shaswatsraghuvansi.github.io/)
 
 ---
 
