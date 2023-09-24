@@ -31,6 +31,7 @@
 
 <body>
   <!------------ NavBar ---------------->
+  <a name="BuzzLightYear"></a>
   <header class="header" id="nav-menu">
     <nav class="navbar">
       <a href="#" class="nav-logo" style="font-weight: 550; font-size: 22px; color: rgb(255, 255, 255);"><span
@@ -63,6 +64,10 @@
               id="resume-link-1" href="./resume/Shaswat_Singh_Raghuvansi_Resume.pdf" target="_blank"
               download="Shaswat_Singh_Raghuvansi_Resume.pdf">Resume</a></button>
         </li>
+
+
+      
+
       </ul>
       <div class="hamburger">
         <span class="bar"></span>
@@ -221,6 +226,77 @@
     </section>
     <br><br>
 
+
+       <!-------------------- CERTIFICATES ---------------------->
+       <section id="skills">
+        <h2 style="text-align: center;"><span
+            style="color: rgb(70, 194, 239); font-weight: 600; font-size: medium;">03.</span>Tech Stack</h2>
+        <br>
+        <div id="skills-div" class="about section" data-aos="fade-up" data-aos-duration="1000">
+          <div class="skills-card">
+            <a href="https://www.hackerrank.com/certificates/05a8ad3ef430" target="_top">
+                <img class="skills-card-img" src="./image/JavaBasic.png" alt="" />
+            </a>
+            <!-- <h5 class="skills-card-name">HTML</h5> -->
+        </div>
+
+          <div class="skills-card">
+            <img class="skills-card-img" src="./image/SQLBasic.png" alt="" />
+            <!-- <h5 class="skills-card-name">CSS</h5> -->
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img" src="./image/js (1).png" alt="" />
+            <h5 class="skills-card-name">JAVASCRIPT</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img" src="image/Java.png" alt="" />
+            <h5 class="skills-card-name">Java</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img"
+              src="https://www.svgrepo.com/show/354380/spring-icon.svg" alt="" />
+            <h5 class="skills-card-name">Spring</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img" src="https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png"
+              alt="" />
+            <h5 class="skills-card-name">Spring Boot</h5>
+          </div>
+          <div class="skills-card">
+            <img style="color:white" class="skills-card-img"
+              src="image/spring-security.png  "
+              alt="" />
+            <h5 class="skills-card-name">Spring Security</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img" src="https://icons-for-free.com/download-icon-development+logo+mysql+icon-1320184807686758112_512.png" alt="" />
+            <h5 class="skills-card-name">MYSQL</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img"
+              src="https://i0.wp.com/kosiorowski.net/wp-content/uploads/2013/11/hibernate.png?ssl=1"
+              alt="" />
+            <h5 class="skills-card-name">Hibernate</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img" src="https://static-00.iconduck.com/assets.00/aws-icon-2048x2048-274bm1xi.png" alt="" />
+            <h5 class="skills-card-name">AWS</h5>
+          </div>
+          <div class="skills-card">
+            <img style="color:white" class="skills-card-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png"
+              alt="" />
+            <h5 class="skills-card-name">GITHUB</h5>
+          </div>
+          <div class="skills-card">
+            <img class="skills-card-img"
+              src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Postman.svg"
+              alt="" />
+            <h5 class="skills-card-name">POSTMAN</h5>
+          </div>
+        </div>
+      </section>
+      <br><br>
+
     <!-------------------- PROJECTS ---------------------->
     <section id="projects">
       <h2 style="text-align: center;"><span
@@ -373,7 +449,9 @@
           <a id="contact-email" href="https://mail.google.com/mail/?view=cm&fs=1&to=shaswat.sr13@gmail.com"
             target="_blank"><i class="fa-solid fa-envelope"></i><i style="color: rgb(70, 194, 239);"
               class="fa-solid fa-arrow-pointer"></i> Email</a>
+              
         </div>
+      </div>
       </div>
     </section>
     <footer>
@@ -384,11 +462,28 @@
 </body>
 
 </html>
+
+
+
+
 <script>
 
   function resume() {
-    window.open("https://drive.google.com/file/d/1sCVTI6MPwprlwRaVm_bmMfK_rb8e4n-B/view", "_blank");
+
+                            // Replace this URL with the direct link to your resume file on Google Drive
+                            var resumeURL = "https://drive.google.com/file/d/your-file-id/view";
+
+                            // Open the URL in a new window
+                            var newWindow = window.open(resumeURL, "_blank");
+
+                            // Close the new window after a short delay
+                            setTimeout(function() {
+                                if (newWindow) {
+                                    newWindow.close();
+                                }
+                            }, 2000); // Adjust the delay as needed
   }
+  
   document.getElementById('contact-phone').addEventListener('click', () => {
     alert('☎ +91 9115514127')
   })
